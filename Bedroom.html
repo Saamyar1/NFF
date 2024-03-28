@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Your Name">
+    <title>NFF Outlet</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <header class="header_bed">
+        <h1>NFF Outlet</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Livingroom.html">Living Room</a></li>
+                <li><a href="Bedroom.html">Bedroom Sets</a></li>
+                <li><a href='checkout.html'>Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container-content">
+            <h2 class="center-text">Bed Room</h2>
+            <table>
+                <caption>Bed Room Selection</caption> 
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Item</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th rowspan="1">King Bed</th>
+                        <td>King Bed</td>
+                        <td>$350.00</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="1">Queen Bed</th>
+                        <td>Queen Bed</td>
+                        <td>$250.00</td>
+                    </tr>
+
+                    <tr>
+                        <th rowspan="1">Twin Bed</th>
+                        <td>Twin Bed</td>
+                        <td>$150.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="font-sm center-text">* Delivery and installation included at an additional cost</p>
+        </div>   
+    </main>
+
+    <div class="carousel-container">
+        <button class="carousel-btn left"><i class="fa-solid fa-chevron-left"></i></button>
+        <ul class="carousel">
+            <li class="carousel-item active"><img src="images/King.jpg" alt="King Bed"></li>
+            <li class="carousel-item"><img src="images/Queen.jpg" alt="Queen Bed"></li>
+            <li class="carousel-item"><img src="images/Twin.jpg" alt="Twin Bed"></li>
+        </ul>
+        <button class="carousel-btn right"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="carousel-nav">
+            <div class="nav-item active"></div>
+            <div class="nav-item"></div>
+            <div class="nav-item"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="font-sm center-text">&copy;2023 NFF Outlet. All rights reserved.</p>
+    </footer>
+
+    <script src="carousel.js"></script>
+    
+</body>
+</html>
